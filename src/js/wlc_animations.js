@@ -4,7 +4,7 @@ setTimeout(descSlideUp, 2700);
 setTimeout(nickSlideOver, 4000);
 setTimeout(descHide, 4000);
 setTimeout(openPage, 4500);
-setTimeout(headerShow, 5000);
+setTimeout(headerShow, 5300);
 
 
 function nickSlideUp() {
