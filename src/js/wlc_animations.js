@@ -16,7 +16,7 @@ function descSlideUp(){
 }
 
 function nickSlideOver() {
-    $('.welcome_nick').animate({bottom: '46%', right: '48%', fontSize: '42'}, 1200);
+    $('.welcome_nick').animate({bottom: '46%', right: '48%', fontSize: '42', opacity: '0'}, 1200);
 }
 
 function descHide(){
