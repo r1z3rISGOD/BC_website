@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #444444;
+    opacity: 1;
+}
+
+
+.welcome_nick {
+    color: white;
+    font-size: 72px;
+    font-family: 'Six Caps', sans-serif;
+    font-weight: normal;
+    position: relative;
+}
+
+.welcome_desc {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    color: white;
+    font-weight: normal;
+    opacity: 0;
+    position: relative;
+    bottom: 180px;
+}
+
+.header {
+    display: flex;
+    height: 75px;
+    background-color: #444444;
+    width: 100vw;
+    opacity: 0;
+}
+
+.header_nick {
+    color: white;
+    font-size: 42px;
+    font-family: 'Six Caps', sans-serif;
+    font-weight: normal;
+    position: relative;
+    bottom: 25px;
+    left: 18px;
+}
