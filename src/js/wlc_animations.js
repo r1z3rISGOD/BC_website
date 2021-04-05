@@ -8,7 +8,7 @@ setTimeout(headerShow, 5300);
 
 
 function nickSlideUp() {
-    $('.welcome_nick').animate({bottom: '+=100'}, 1200);
+    $('.welcome_nick').animate({bottom: '+=50'}, 1200);
 }
 
 function descSlideUp(){
